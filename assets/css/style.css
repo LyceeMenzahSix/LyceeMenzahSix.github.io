@@ -91,10 +91,6 @@ img {
 	flex-grow: 1;
 	align-items: center;
 	justify-content: space-between;
-
-	@media (max-width: 1200px) {
-		display: none;
-	}
 }
 
 .header-navigation-links {
@@ -669,6 +665,8 @@ code {
 }
 
 html {
+	scroll-behavior: smooth;
+
 	&::-webkit-scrollbar {
 		width: 12px;
 	}
